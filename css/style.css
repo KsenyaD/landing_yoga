@@ -34,36 +34,56 @@ img {
     height: auto;
 }
 
-.main {
+body {
+    color: #8E80A9;
+    background: #FCF8FE;
+}
+
+.title {
     background: url("../img/svg/img_main_screen.jpg") no-repeat center;
     min-height: 100vh;
     background-size: cover;
     color: white;
-
 }
 
 .intro {
     position: relative;
 }
 
-.wrapper_main_pages {
+.wrapper {
     max-width: 1160px;
     margin: auto;
-
 }
 
 /* стили для номера страниц начало */
-.number_pages {
+.numbers_wrapper {
     position: absolute;
     top: 0;
     right: 0;
     padding-top: 399px;
-    display: inline-block;
+    font-family: Geometria, serif;
+    font-weight: bold;
+}
+
+.number_pages_1 {
+    padding-bottom: 681px;
+}
+
+.number_pages_2 {
+    padding-bottom: 681px;
+}
+
+.number_pages_3 {
+    padding-bottom: 702px;
+}
+
+.number_pages_4 {
+    padding-bottom: 688px;
 }
 
 .number {
     display: inline-block;
-    margin-right: 11px;
+    margin-right: 5px;
     font-size: 30px;
     line-height: 15px;
     color: rgba(174, 164, 200, 0.5);
@@ -178,6 +198,7 @@ img {
     padding-left: 20px;
     vertical-align: middle;
 }
+
 /* стили главная страница основное конец*/
 
 /* стили главная страница подвал начало*/
@@ -188,14 +209,277 @@ img {
     color: #8B7EAC;
 }
 
-.intro_footer {
+.intro_footer_wrapper {
     display: flex;
     justify-content: space-between;
 }
+
 /* стили главная страница подвал конец*/
 
+/*стили направления услуг начало*/
+
+.directions {
+    margin-top: -65px;
+    background: url("../img/pattern_2_window.png") no-repeat center;
+    height: 722px;
+    margin-bottom: 33px;
+
+}
+
+.directions_title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.directions_content {
+    height: 493px;
+    width: 925px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.directions_content_hatha-yoga_info {
+    position: relative;
+    height: 182px;
+    width: 366px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+}
+
+.wrapper2_directions_content {
+    width: 525px;
+}
+
+.directions_content_hatha-yoga_info_title {
+    color: #8E80A9;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 42px;
+    padding-left: 46px;
+    padding-bottom: 13px;
+}
+
+.directions_content_info_timetable {
+    height: 40px;
+    width: 190px;
+    padding-left: 46px;
+    margin: 0;
+    line-height: 20px;
+    padding-bottom: 16px;
+    display: inline-block;
+}
+
+.directions_content_info_instructor {
+    height: 30px;
+    width: 123px;
+    padding-left: 46px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E65C7B;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.directions_content_hatha-yoga_info_button {
+    background: #8E80A9;
+    border: 0;
+    height: 182px;
+    width: 64px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
 
+.directions_content_asatanga-yoga {
+    height: 180px;
+    width: 525px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 23px;
+}
+
+.directions_content_asatanga-yoga_info_title {
+    display: inline-block;
+    font-size: 16px;
+    color: #8E80A9;
+    font-weight: bold;
+    padding-top: 33px;
+    padding-left: 34px;
+    padding-bottom: 13px;
+    vertical-align: top;
+}
+
+.hatha-yoga {
+    vertical-align: top;
+}
+
+.directions_content_asatanga-yoga_wrapper {
+    display: inline-block;
+    height: 180px;
+    width: 300px;
+}
+
+.directions_content_asatanga-yoga_info_timetable {
+    padding-left: 34px;
+    height: 40px;
+    width: 190px;
+    margin: 0;
+    line-height: 20px;
+    padding-bottom: 16px;
+    display: inline-block;
+}
+
+.directions_content_asatanga-yoga_info_instructor {
+    padding-left: 34px;
+    height: 30px;
+    width: 123px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E65C7B;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+.directions_content_asatanga-yoga_info_button {
+    position: absolute;
+    background: #8E80A9;
+    height: 30px;
+    width: 45px;
+    border: 0;
+    margin-left: 67px;
+}
+
+
+.directions_content_kundalini-yoga {
+    height: 180px;
+    width: 525px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 57px;
+}
+
+.directions_content_see_button {
+    border: 0;
+    background: #FFFFFF;
+    height: 48px;
+    width: 525px;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+    font-size: 12px;
+    line-height: 20px;
+    color: #8E80A9;
+    padding: 0;
+}
+
+/*стили направления услуг конец*/
+
+/*стили абонементы начало*/
+.abonements {
+    background: url("../img/fonts_3blok.png") no-repeat center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.abonements_wrapper {
+    height: 469px;
+    width: 931px;
+    margin: auto;
+}
+
+.abonements_wrapper_title {
+    font-size: 30px;
+    line-height: 15px;
+    color: #8E80A9;
+    font-weight: bold;
+    height: 15px;
+    width: 191px;
+    margin: auto;
+}
+
+.abonements_period {
+    height: 20px;
+    width: 286px;
+    display: flex;
+    justify-content: space-between;
+    margin: 54px auto auto;
+}
+
+.abonements_period_a {
+    border: none;
+    color: #E65C7B;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.abonements_period_a1:link {
+    text-decoration: underline;
+}
+
+/*стили карточки абониментов начало*/
+.abonements_visit_time {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abonements_visit_time_morning {
+    margin-top: 46px;
+    height: 237px;
+    width: 263px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+}
+
+.abonements_visit_time_morning_title {
+    font-size: 18px;
+    line-height: 20px;
+    color: #8E80A9;
+    height: 20px;
+    width: 43px;
+    margin: 56px auto 19px;
+    font-weight: bold;
+    font-family: Geometria, serif;
+}
+
+.abonements_visit_time_morning_time {
+    height: 40px;
+    width: 90px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E65C7B;
+    margin-left: 84px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Geometria, serif;
+}
+
+.abonements_visit_time_morning_price {
+    height: 20px;
+    width: 107px;
+    margin: 26px auto auto;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E80A9;
+    font-family: Geometria, serif;
+}
+
+/*стили карточки абониментов конец*/
+/*стили абонементы конец*/
 
 
 
