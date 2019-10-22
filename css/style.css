@@ -429,13 +429,13 @@ body {
 }
 
 /*стили карточки абониментов начало*/
-.abonements_visit_time {
+.abonements_visit_time_wrapper {
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.abonements_visit_time_morning {
+.abonements_visit_time {
     margin-top: 46px;
     height: 237px;
     width: 263px;
@@ -443,39 +443,84 @@ body {
     box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
 }
 
-.abonements_visit_time_morning_title {
+.abonements_visit_time_unlimited {
+    margin-top: 46px;
+    background: #FFFFFF;
+    width: 331px;
+    height: 331px;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+}
+
+.abonement_visit_time_title {
     font-size: 18px;
     line-height: 20px;
     color: #8E80A9;
-    height: 20px;
-    width: 43px;
-    margin: 56px auto 19px;
     font-weight: bold;
     font-family: Geometria, serif;
+    margin-top: 58px;
+    height: 20px;
 }
 
-.abonements_visit_time_morning_time {
+.abonement_visit_time_morning_title {
+    width: 43px;
+    margin: 56px auto 19px;
+}
+
+.abonement_visit_time_evening_title {
+    width: 56px;
+    margin-left: 103px;
+}
+
+.abonement_visit_time_unlimited_title {
+    margin-left: 122px;
+}
+
+.abonement_visit_common_time {
     height: 40px;
-    width: 90px;
     font-size: 12px;
     line-height: 20px;
     color: #E65C7B;
-    margin-left: 84px;
     font-weight: bold;
     text-align: center;
     font-family: Geometria, serif;
+    margin: 19px auto auto;
 }
 
-.abonements_visit_time_morning_price {
+.abonement_visit_time_price {
     height: 20px;
-    width: 107px;
-    margin: 26px auto auto;
     font-weight: bold;
     font-size: 30px;
     line-height: 20px;
     text-align: center;
     color: #8E80A9;
     font-family: Geometria, serif;
+}
+
+
+.abonement_visit_time_unlimited_price {
+    margin-top: 29px;
+    margin-left: 108px;
+    width: 114px;
+}
+
+.abonement_visit_time_morning_price {
+    width: 116px;
+    margin: 26px auto auto;
+}
+
+.abonements_visit_time_unlimited_button {
+    margin-top: 36px;
+    margin-left: 54px;
+    padding: 0;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: Geometria, serif;
+    font-size: 12px;
+    line-height: 20px;
+    background: #8E80A9;
+    height: 52px;
+    width: 223px;
 }
 
 /*стили карточки абониментов конец*/
