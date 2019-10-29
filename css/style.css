@@ -34,11 +34,6 @@
     font-style: normal;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-
-
 html {
     box-sizing: border-box;
     margin: 0;
@@ -51,12 +46,12 @@ img {
 }
 
 body {
-    color: #8E80A9;
-    background: #FCF8FE;
-    font-weight: 500;
-    font-style: normal;
-    font-family: Geometria, serif;
-}
+     color: #8E80A9;
+     background: #FCF8FE;
+     font-weight: 500;
+     font-style: normal;
+     font-family: Geometria, serif;
+ }
 
 .title {
     background: url("../img/svg/img_main_screen.jpg") no-repeat center;
@@ -246,7 +241,7 @@ body {
      margin-top: -96px;
      height: 722px;
      width: 100%;
-     margin-bottom: 33px;
+     margin-bottom: 13px;
 }
 
 .directions_img {
@@ -302,7 +297,6 @@ body {
 .directions_content_hatha-yoga_info_title {
     color: #8E80A9;
     font-size: 16px;
-    font-weight: bold;
     display: block;
     padding-top: 42px;
     padding-left: 46px;
@@ -311,8 +305,7 @@ body {
 }
 
 .directions_content_info_timetable {
-    height: 40px;
-    width: 230px;
+    width: 171px;
     padding-left: 46px;
     margin: 0;
     line-height: 20px;
@@ -326,7 +319,6 @@ body {
     font-size: 12px;
     line-height: 15px;
     color: #E65C7B;
-    font-weight: bold;
     display: block;
 }
 
@@ -359,6 +351,7 @@ body {
     padding-left: 34px;
     padding-bottom: 13px;
     vertical-align: top;
+    font-weight: bold;
 }
 
 .hatha-yoga {
@@ -373,8 +366,7 @@ body {
 
 .directions_content_asatanga-yoga_info_timetable {
     padding-left: 34px;
-    height: 40px;
-    width: 210px;
+    width: 171px;
     margin: 0;
     line-height: 20px;
     padding-bottom: 16px;
@@ -387,7 +379,6 @@ body {
     font-size: 12px;
     line-height: 15px;
     color: #E65C7B;
-    font-weight: bold;
     display: inline-block;
 }
 
@@ -422,6 +413,9 @@ body {
     line-height: 20px;
     color: #8E80A9;
     padding: 0;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Geometria, serif;
 }
 
 /*стили направления услуг конец*/
@@ -446,6 +440,7 @@ body {
     height: 15px;
     width: 191px;
     margin: auto;
+    font-weight: bold;
 }
 
 .abonements_period {
@@ -498,6 +493,7 @@ body {
     color: #8E80A9;
     margin-top: 58px;
     height: 20px;
+    font-weight: bold;
 }
 
 .abonement_visit_time_morning_title {
@@ -529,6 +525,7 @@ body {
     line-height: 20px;
     text-align: center;
     color: #8E80A9;
+    font-weight: bold;
 }
 
 
@@ -553,6 +550,9 @@ body {
     font-size: 12px;
     line-height: 20px;
     background: #8E80A9;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Geometria, serif;
     height: 52px;
     width: 223px;
 }
