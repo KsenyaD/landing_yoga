@@ -46,12 +46,12 @@ img {
 }
 
 body {
-     color: #8E80A9;
-     background: #FCF8FE;
-     font-weight: 500;
-     font-style: normal;
-     font-family: Geometria, serif;
- }
+    color: #8E80A9;
+    background: #FCF8FE;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Geometria, serif;
+}
 
 .title {
     background: url("../img/svg/img_main_screen.jpg") no-repeat center;
@@ -69,6 +69,7 @@ body {
     max-width: 1160px;
     margin: auto;
 }
+
 
 /* стили для номера страниц начало */
 .numbers_wrapper {
@@ -137,7 +138,6 @@ body {
 .menu__icon {
     display: inline-block;
     height: 20px;
-    width: 20px;
 }
 
 .menu__icon1 {
@@ -170,6 +170,37 @@ body {
     margin-top: 4px;
 }
 
+@media (max-width: 768px) {
+    .numbers_wrapper {
+        padding-top: 210px;
+    }
+
+    .number_pages_1 {
+        padding-bottom: 413px;
+    }
+
+    .number_pages_2 {
+        padding-bottom: 484px;
+    }
+
+    .number_pages_3 {
+        padding-bottom: 469px;
+    }
+
+    .number_pages_4 {
+        padding-bottom: 757px;
+    }
+
+    .number {
+        font-size: 18px;
+    }
+
+    .line_number {
+        width: 19px;
+    }
+}
+
+
 /*стили для меню конец*/
 
 /* стили главная страница основное начало*/
@@ -182,9 +213,10 @@ body {
     padding-left: 160px;
 }
 
-.intro_logo{
+.intro_logo {
     margin-top: -6px;
 }
+
 .intro_record {
     display: block;
     width: 300px;
@@ -213,7 +245,7 @@ body {
     color: #E65C7B;
     display: inline-block;
     width: 220px;
-    padding-left: 20px;
+    margin-left: 20px;
     vertical-align: middle;
 }
 
@@ -232,35 +264,122 @@ body {
     justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+    /*   .menu__icon {
+       height: 8px;
+   }*/
+    .wrapper {
+        max-width: 626px;
+    }
+
+    .intro {
+        margin-top: 42px;
+    }
+
+    .header_info {
+        padding-top: 37px;
+    }
+
+    .menu {
+        font-size: 12px;
+        margin-left: 0;
+        width: 9px;
+    }
+
+    .header_telephon {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .menu__icon1 {
+        width: 12.8px;
+    }
+
+    .menu__icon2 {
+        width: 12.8px;
+        margin-top: 2px;
+    }
+
+    .menu__icon3 {
+        width: 8px;
+        margin-top: 2px;
+
+    }
+    .intro_record_text {
+        font-size: 10px;
+        line-height: 12px;
+        width: 137px;
+        margin-left: 3px;
+        vertical-align: middle;
+    }
+
+    .intro_title {
+        font-size: 24px;
+        padding-left: 86px;
+    }
+
+    .intro_logo {
+        margin-top: -5px;
+    }
+
+    .intro_record_button {
+        top: 506px;
+        width: 30px;
+        height: 26px;
+    }
+
+    .intro_record {
+        margin: -10px auto 0;
+        padding-bottom: 56px;
+        width: 180px;
+    }
+
+    .intro_footer_city {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .intro_footer_city {
+        font-size: 12px;
+    }
+
+    .intro_record_button-icon {
+        width: 10px;
+        height: 15px;
+        margin-bottom: 2px;
+    }
+}
+
 /* стили главная страница подвал конец*/
 
 /*стили направления услуг начало*/
 
 .directions {
-     position: relative;
-     margin-top: -96px;
-     height: 722px;
-     width: 100%;
-     margin-bottom: 13px;
+    position: relative;
+    margin-top: -96px;
+    height: 722px;
+    width: 100%;
+    margin-bottom: 13px;
 }
 
 .directions_img {
     position: absolute;
     margin-left: 18px;
-    top: -52px;  /* position the top  edge of the element at the middle of the parent */
+    top: -52px; /* position the top  edge of the element at the middle of the parent */
     left: 50%; /* position the left edge of the element at the middle of the parent */
     transform: translate(-50%, 0);
 }
 
 
-.directions_wrapper{
+.directions_wrapper {
     position: absolute;
-    top: 0;  /* position the top  edge of the element at the middle of the parent */
+    top: 0; /* position the top  edge of the element at the middle of the parent */
     left: 50%; /* position the left edge of the element at the middle of the parent */
-    transform: translate(-50%,  0);
+    transform: translate(-50%, 0);
     width: 955px;
     vertical-align: top;
 }
+
 .directions_title {
     font-size: 30px;
     font-weight: bold;
@@ -288,6 +407,7 @@ body {
     display: inline-block;
     vertical-align: top;
 }
+
 .wrapper2_directions_content {
     display: inline-block;
     vertical-align: top;
@@ -557,7 +677,37 @@ body {
     width: 223px;
 }
 
+
+@media (max-width: 768px) {
+    .directions {
+        display: none;
+    }
+
+    .abonements {
+        display: none;
+    }
+
+    .icon_intro_vk {
+        width: 8px;
+        height: 5px;
+        display: inline-block;
+    }
+
+    .icon_intro_tt {
+        width: 9px;
+        height: 6px;
+        display: inline-block;
+        margin-left: 1px;
+    }
+
+    .icon_intro_fb {
+        width: 4px;
+        height: 7px;
+        display: inline-block;
+        margin-left: 2px;
+    }
+
+}
+
 /*стили карточки абониментов конец*/
 /*стили абонементы конец*/
-
-
