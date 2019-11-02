@@ -305,6 +305,7 @@ body {
         margin-top: 2px;
 
     }
+
     .intro_record_text {
         font-size: 10px;
         line-height: 12px;
@@ -330,7 +331,6 @@ body {
 
     .intro_record {
         margin: -10px auto 0;
-        padding-bottom: 56px;
         width: 180px;
     }
 
@@ -347,6 +347,94 @@ body {
         width: 10px;
         height: 15px;
         margin-bottom: 2px;
+    }
+
+    .directions {
+        display: none;
+    }
+
+    .abonements {
+        display: none;
+    }
+
+    .icon_intro_vk {
+        width: 8px;
+        height: 5px;
+        display: inline-block;
+    }
+
+    .icon_intro_tt {
+        width: 9px;
+        height: 6px;
+        display: inline-block;
+        margin-left: 1px;
+    }
+
+    .icon_intro_fb {
+        width: 4px;
+        height: 7px;
+        display: inline-block;
+        margin-left: 2px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .title {
+        min-height: 0;
+    }
+
+    .menu__icon1 {
+        width: 30px;
+    }
+
+    .menu__icon2 {
+        width: 30px;
+        margin-top: 5px;
+    }
+    .menu__icon3 {
+        width: 19px;
+        margin-top: 5px;
+    }
+
+    .wrapper {
+        max-width: 290px;
+    }
+
+    .menu__icon {
+        height: 0;
+        display: block;
+    }
+
+    .numbers_wrapper {
+        display: none;
+    }
+
+    .header_info {
+        padding-top: 19px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .intro_footer {
+        display: none;
+    }
+    .intro {
+        margin-top: 67px;
+    }
+    .intro_title {
+        font-size: 18px;
+        padding-left: 29px;
+    }
+    .intro_logo {
+        margin-top: 3px;
+    }
+    .intro_record {
+        margin-left: 58px;
+        padding-bottom: 73px;
+        padding-top: 20px;
     }
 }
 
@@ -677,37 +765,6 @@ body {
     width: 223px;
 }
 
-
-@media (max-width: 768px) {
-    .directions {
-        display: none;
-    }
-
-    .abonements {
-        display: none;
-    }
-
-    .icon_intro_vk {
-        width: 8px;
-        height: 5px;
-        display: inline-block;
-    }
-
-    .icon_intro_tt {
-        width: 9px;
-        height: 6px;
-        display: inline-block;
-        margin-left: 1px;
-    }
-
-    .icon_intro_fb {
-        width: 4px;
-        height: 7px;
-        display: inline-block;
-        margin-left: 2px;
-    }
-
-}
 
 /*стили карточки абониментов конец*/
 /*стили абонементы конец*/
