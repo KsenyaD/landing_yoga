@@ -70,7 +70,6 @@ body {
     margin: auto;
 }
 
-
 /* стили для номера страниц начало */
 .numbers_wrapper {
     position: absolute;
@@ -170,37 +169,6 @@ body {
     margin-top: 4px;
 }
 
-@media (max-width: 768px) {
-    .numbers_wrapper {
-        padding-top: 210px;
-    }
-
-    .number_pages_1 {
-        padding-bottom: 413px;
-    }
-
-    .number_pages_2 {
-        padding-bottom: 484px;
-    }
-
-    .number_pages_3 {
-        padding-bottom: 469px;
-    }
-
-    .number_pages_4 {
-        padding-bottom: 757px;
-    }
-
-    .number {
-        font-size: 18px;
-    }
-
-    .line_number {
-        width: 19px;
-    }
-}
-
-
 /*стили для меню конец*/
 
 /* стили главная страница основное начало*/
@@ -219,7 +187,7 @@ body {
 
 .intro_record {
     display: block;
-    width: 300px;
+    width: 301px;
     margin: -20px auto 0;
     padding-bottom: 133px;
 }
@@ -263,6 +231,37 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    .numbers_wrapper {
+        padding-top: 210px;
+    }
+
+    .number_pages_1 {
+        padding-bottom: 413px;
+    }
+
+    .number_pages_2 {
+        padding-bottom: 484px;
+    }
+
+    .number_pages_3 {
+        padding-bottom: 469px;
+    }
+
+    .number_pages_4 {
+        padding-bottom: 757px;
+    }
+
+    .number {
+        font-size: 18px;
+    }
+
+    .line_number {
+        width: 19px;
+    }
+}
+
 
 @media (max-width: 768px) {
     /*   .menu__icon {
@@ -349,14 +348,6 @@ body {
         margin-bottom: 2px;
     }
 
-    .directions {
-        display: none;
-    }
-
-    .abonements {
-        display: none;
-    }
-
     .icon_intro_vk {
         width: 8px;
         height: 5px;
@@ -392,6 +383,7 @@ body {
         width: 30px;
         margin-top: 5px;
     }
+
     .menu__icon3 {
         width: 19px;
         margin-top: 5px;
@@ -421,16 +413,20 @@ body {
     .intro_footer {
         display: none;
     }
+
     .intro {
         margin-top: 67px;
     }
+
     .intro_title {
         font-size: 18px;
         padding-left: 29px;
     }
+
     .intro_logo {
         margin-top: 3px;
     }
+
     .intro_record {
         margin-left: 58px;
         padding-bottom: 73px;
@@ -459,7 +455,7 @@ body {
 }
 
 
-.directions_wrapper {
+.abcolut_wrapper {
     position: absolute;
     top: 0; /* position the top  edge of the element at the middle of the parent */
     left: 50%; /* position the left edge of the element at the middle of the parent */
@@ -765,6 +761,208 @@ body {
     width: 223px;
 }
 
-
 /*стили карточки абониментов конец*/
 /*стили абонементы конец*/
+
+/*стили последний блок начало */
+/*стили наша команда начало*/
+.our_team {
+    margin-top: -295px;
+    position: relative;
+}
+
+.our_team_team_arrow1 {
+    margin-top: -20px;
+    display: inline-block;
+    height: 1180px;
+    position: absolute;
+}
+
+.our_team_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 977px;
+}
+
+.our_team_team_arrow2 {
+    padding-top: 35px;
+    height: 514px;
+    width: 576px;
+    position: absolute;
+    margin-left: 950px;
+}
+
+.our_team_title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 60px;
+    transform: translate(370px, 0);
+}
+
+.our_team_instructor_info {
+    height: 105px;
+    width: 399px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+    margin-top: -88px;
+    margin-left: 23px;
+}
+
+.our_team_instructor_info_left {
+    margin-left: 141px;
+    padding-top: 19px;
+    display: inline-block;
+    width: 88px;
+}
+
+.our_team_instructor_info_title {
+    font-size: 12px;
+    line-height: 20px;
+    color: #E65C7B;
+}
+
+.our_team_instructor_info_cont {
+    display: inline-block;
+    padding-top: 9px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8E80A9;
+
+}
+
+.our_team_instructor_info_right {
+    margin-left: 80px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 23px;
+}
+
+.our_team_instructor_info_right_icon {
+    margin-bottom: 28px;
+    margin-left: 16px;
+}
+
+.icon_team {
+    margin-left: 7px;
+}
+
+.our_team_instructor_info_look {
+    font-size: 12px;
+    line-height: 20px;
+    color: #8E80A9;
+    text-decoration: none;
+    border-bottom: 1px solid #8E80A9;
+    padding-bottom: 3px;
+}
+
+.our_team_instructor_fio {
+    margin-bottom: 33px;
+}
+
+.our_team_instructor_fio_last {
+    margin-bottom: 43px;
+}
+
+.our_team_info_right {
+    margin-top: 54px;
+}
+
+.our_team_info_right_title {
+    display: inline-block;
+    font-size: 18px;
+    color: #8E80A9;
+    /*   padding-top: 33px;
+       padding-left: 34px;
+       padding-bottom: 13px;*/
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.our_team_info_right_exp {
+    font-size: 14px;
+    line-height: 20px;
+    color: #E65C7B;
+    margin-top: 11px;
+}
+
+.our_team_info_paragraphs {
+    font-size: 12px;
+    line-height: 20px;
+    color: #8E80A9;
+}
+
+.our_team_info_right_paragraph1 {
+    margin-top: 24px;
+}
+
+.our_team_info_right_paragraph2 {
+    margin-top: 20px;
+}
+
+.our_team_info_right_paragraph3 {
+    margin-top: 20px;
+}
+
+.our_team_info_right_paragraph4 {
+    margin-top: 20px;
+}
+
+.our_team_info_left_buttons {
+    text-align: right;
+
+}
+
+.our_team_info_left-button1 {
+    border: 1px solid #8E80A9;
+    box-sizing: border-box;
+    height: 30px;
+    width: 45px;
+    background-color: Transparent;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.our_team_info_left-button2 {
+    border: none;
+    background: #8E80A9;
+    box-sizing: border-box;
+    height: 30px;
+    width: 45px;
+    margin: 0;
+}
+
+.our_team_info_left_numb {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+    margin-right: 19px;
+}
+
+.our_team_info_left-button1-img {
+    padding-top: 6px;
+}
+/*стили наша команда конец*/
+/*стили отзывы начало*/
+.reviews_title {
+    font-size: 30px;
+    line-height: 15px;
+    margin: auto;
+    margin-top: 140px;
+    width: 121px;
+}
+
+.reviews_cards {
+    margin-top: 62px;
+}
+
+.reviews_card {
+    height: 315px;
+    width: 442px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+}
+/*стили отзывы конец*/
+/*стили последний блок конец */
