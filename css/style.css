@@ -769,6 +769,7 @@ body {
 .our_team {
     margin-top: -295px;
     position: relative;
+    min-height: 1245px;
 }
 
 .our_team_team_arrow1 {
@@ -1009,6 +1010,7 @@ body {
     margin-left: 25px;
     display: inline-block;
 }
+
 .reviews_card_right {
     margin-left: 16px;
     display: inline-block;
@@ -1045,3 +1047,150 @@ body {
 
 /*стили отзывы конец*/
 /*стили последний блок конец */
+/*стили футер начало */
+
+.footer {
+    margin-top: 147px;
+}
+
+.footer_wrapper_contacts {
+    background: url("../img/footer-card.jpg") no-repeat center;
+    background-size: cover;
+    height: 475px;
+}
+
+.footer_wrapper_contacts-left_blok1 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 142px;
+}
+
+.footer_wrapper_contacts-left_blok2 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 32px;
+}
+
+.footer_wrapper_contacts-left_blok3 {
+    margin-top: 33px;
+}
+
+.footer_wrapper_info {
+    background: #8373A1;
+    height: 75px;
+}
+
+.footer_wrapper_info_left {
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+}
+
+.footer_wrapper_info_right {
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+}
+
+.footer_wrapper_info_general {
+    display: flex;
+    justify-content: space-between;
+    max-width: 929px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.footer_wrapper_contacts-center_blok1 {
+    margin-top: 142px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer_wrapper_contacts-center_blok2 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 32px;
+}
+
+.footer_wrapper_contacts-right-our {
+    width: 411px;
+    margin-top: 38px;
+}
+
+.footer_wrapper_contacts-right_title {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+
+.footer_wrapper_contacts-right_input-name {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #8E80A9;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(142, 128, 169, 0.4);
+    display: block;
+    width: 407px;
+    font-family: 'Geometria';
+    transform: rotate(0.14deg);
+}
+
+.footer_wrapper_contacts-right_input-telephone {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #8E80A9;
+    margin-top: 42px;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(142, 128, 169, 0.4);
+    width: 407px;
+    font-family: 'Geometria';
+    transform: rotate(0.14deg);
+
+}
+
+.footer_wrapper_contacts-right {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 61px;
+}
+
+.footer_wrapper_contacts-left {
+    display: inline-block;
+}
+
+.footer_wrapper_contacts-right_input-telephone::-webkit-input-placeholder, .footer_wrapper_contacts-right_input-name::-webkit-input-placeholder {
+    color: rgba(142, 128, 169, 0.4);
+}
+
+.footer_wrapper_contacts-right_input-telephone::-moz-placeholder, .footer_wrapper_contacts-right_input-name::-moz-placeholder {
+    color: rgba(142, 128, 169, 0.4);
+}
+
+.footer_wrapper_contacts-right_input-telephone:-moz-placeholder, .footer_wrapper_contacts-right_input-name:-moz-placeholder {
+    color: rgba(142, 128, 169, 0.4);
+}
+
+.footer_wrapper_contacts-right_input-telephone:-ms-input-placeholder, .footer_wrapper_contacts-right_input-name:-ms-input-placeholder {
+    color: rgba(142, 128, 169, 0.4);
+}
+
+
+.footer_wrapper_contacts-right_button {
+    margin-top: 57px;
+    background: #E65C7B;
+    border: 0;
+    height: 56px;
+    width: 407px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Geometria';
+}
+
+/*стили футер конец */
+
