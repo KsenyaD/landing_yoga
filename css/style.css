@@ -2,219 +2,215 @@
 
 /**/
 @font-face {
-    font-family: 'Geometria';
-    src: url('../fonts/Geometria.eot');
-    src: local('Geometria'),
-    url('../fonts/Geometria.woff') format('woff'),
-    url('../fonts/Geometria.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'Geometria';
-    src: url('../fonts/Geometria-Bold.eot');
-    src: local('Geometria Bold'), local('Geometria-Bold'),
-    url('../fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Geometria-Bold.woff') format('woff'),
-    url('../fonts/Geometria-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria.eot");
+  src: local("Geometria"), url("../fonts/Geometria.woff") format("woff"),
+    url("../fonts/Geometria.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Geometria';
-    src: url('../fonts/Geometria-Medium.eot');
-    src: local('Geometria Medium'), local('Geometria-Medium'),
-    url('../fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Geometria-Medium.woff') format('woff'),
-    url('../fonts/Geometria-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-Bold.eot");
+  src: local("Geometria Bold"), local("Geometria-Bold"),
+    url("../fonts/Geometria-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Geometria-Bold.woff") format("woff"), url("../fonts/Geometria-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-Medium.eot");
+  src: local("Geometria Medium"), local("Geometria-Medium"),
+    url("../fonts/Geometria-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Geometria-Medium.woff") format("woff"), url("../fonts/Geometria-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 
 html {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
-    color: #8E80A9;
-    background: #FCF8FE;
-    font-weight: 500;
-    font-style: normal;
-    font-family: Geometria, serif;
+  color: #8e80a9;
+  background: #fcf8fe;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Geometria, serif;
 }
 
 .title {
-    background: url("../img/svg/img_main_screen.jpg") no-repeat center;
-    min-height: 910px;
-    background-size: cover;
-    color: white;
+  background: url("../img/svg/img_main_screen.jpg") no-repeat center;
+  min-height: 910px;
+  background-size: cover;
+  color: white;
 }
 
 .intro {
-    position: relative;
-    margin-top: 100px;
+  position: relative;
+  margin-top: 100px;
 }
 
 .wrapper {
-    max-width: 1160px;
-    margin: auto;
+  max-width: 1160px;
+  margin: auto;
 }
 
 /* стили для номера страниц начало */
 .numbers_wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding-top: 399px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 399px;
 }
 
 .number_pages_1 {
-    padding-bottom: 681px;
+  padding-bottom: 681px;
 }
 
 .number_pages_2 {
-    padding-bottom: 681px;
+  padding-bottom: 681px;
 }
 
 .number_pages_3 {
-    padding-bottom: 702px;
+  padding-bottom: 702px;
 }
 
 .number_pages_4 {
-    padding-bottom: 688px;
+  padding-bottom: 688px;
 }
 
 .number {
-    display: inline-block;
-    margin-right: 5px;
-    font-size: 30px;
-    line-height: 15px;
-    color: rgba(174, 164, 200, 0.5);
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 30px;
+  line-height: 15px;
+  color: rgba(174, 164, 200, 0.5);
 }
 
 .line_number {
-    display: inline-block;
-    width: 56px;
-    height: 2px;
-    background: #8B7EAC;
-    opacity: 0.73;
-    vertical-align: top;
-    margin-top: 10px;
+  display: inline-block;
+  width: 56px;
+  height: 2px;
+  background: #8b7eac;
+  opacity: 0.73;
+  vertical-align: top;
+  margin-top: 10px;
 }
 
 /* стили для номера страниц конец */
 
 /*стили для меню начало*/
 .header_info {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 71px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 71px;
 }
 
 .header_menu {
-    width: 69px;
+  width: 69px;
 }
 
 .menu {
-    width: 20px;
-    display: inline-block;
-    font-size: 16px;
-    color: #8B7EAC;
-    vertical-align: top;
-    margin-left: 12px;
+  width: 20px;
+  display: inline-block;
+  font-size: 16px;
+  color: #8b7eac;
+  vertical-align: top;
+  margin-left: 12px;
 }
 
 .menu__icon {
-    display: inline-block;
-    height: 20px;
+  display: inline-block;
+  height: 20px;
 }
 
 .menu__icon1 {
-    width: 24px;
-    left: 140px;
-    height: 1px;
-    background-color: #8E80A9;
+  width: 24px;
+  left: 140px;
+  height: 1px;
+  background-color: #8e80a9;
 }
 
 .menu__icon2 {
-    width: 24px;
-    left: 140px;
-    height: 1px;
-    background-color: #8E80A9;
-    margin-top: 6px;
+  width: 24px;
+  left: 140px;
+  height: 1px;
+  background-color: #8e80a9;
+  margin-top: 6px;
 }
 
 .menu__icon3 {
-    width: 14.5px;
-    left: 140.5px;
-    margin-top: 6px;
-    height: 1px;
-    background-color: #8E80A9;
+  width: 14.5px;
+  left: 140.5px;
+  margin-top: 6px;
+  height: 1px;
+  background-color: #8e80a9;
 }
 
 .header_telephon {
-    font-size: 16px;
-    color: #8B7EAC;
-    font-weight: 500;
-    margin-top: 4px;
+  font-size: 16px;
+  color: #8b7eac;
+  font-weight: 500;
+  margin-top: 4px;
 }
 
 /*стили для меню конец*/
 
 /* стили главная страница основное начало*/
 .intro_title {
-    font-size: 45px;
-    color: #8E80A9;
-    font-family: 'Caveat', cursive;
-    font-weight: normal;
-    display: inline;
-    padding-left: 160px;
+  font-size: 45px;
+  color: #8e80a9;
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  display: inline;
+  padding-left: 160px;
 }
 
 .intro_logo {
-    margin-top: -6px;
+  margin-top: -6px;
 }
 
 .intro_record {
-    display: block;
-    width: 301px;
-    margin: -20px auto 0;
-    padding-bottom: 133px;
+  display: block;
+  width: 301px;
+  margin: -20px auto 0;
+  padding-bottom: 133px;
 }
 
 .intro_record_button {
-    width: 56px;
-    height: 48px;
-    left: 571px;
-    top: 506px;
-    border: 0;
-    background: #E65C7B;
-    padding: 0;
-    margin: 0;
+  width: 56px;
+  height: 48px;
+  left: 571px;
+  top: 506px;
+  border: 0;
+  background: #e65c7b;
+  padding: 0;
+  margin: 0;
 }
 
 .intro_record_button-icon {
-    margin-left: 4px;
+  margin-left: 4px;
 }
 
 .intro_record_text {
-    font-size: 14px;
-    line-height: 20px;
-    color: #E65C7B;
-    display: inline-block;
-    width: 220px;
-    margin-left: 20px;
-    vertical-align: middle;
+  font-size: 14px;
+  line-height: 20px;
+  color: #e65c7b;
+  display: inline-block;
+  width: 220px;
+  margin-left: 20px;
+  vertical-align: middle;
 }
 
 /* стили главная страница основное конец*/
@@ -222,216 +218,14 @@ body {
 /* стили главная страница подвал начало*/
 
 .intro_footer_city {
-    font-size: 16px;
-    line-height: 15px;
-    color: #8B7EAC;
+  font-size: 16px;
+  line-height: 15px;
+  color: #8b7eac;
 }
 
 .intro_footer_wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
-@media (max-width: 768px) {
-    .numbers_wrapper {
-        padding-top: 210px;
-    }
-
-    .number_pages_1 {
-        padding-bottom: 413px;
-    }
-
-    .number_pages_2 {
-        padding-bottom: 484px;
-    }
-
-    .number_pages_3 {
-        padding-bottom: 469px;
-    }
-
-    .number_pages_4 {
-        padding-bottom: 757px;
-    }
-
-    .number {
-        font-size: 18px;
-    }
-
-    .line_number {
-        width: 19px;
-    }
-}
-
-
-@media (max-width: 768px) {
-    /*   .menu__icon {
-       height: 8px;
-   }*/
-    .wrapper {
-        max-width: 626px;
-    }
-
-    .intro {
-        margin-top: 42px;
-    }
-
-    .header_info {
-        padding-top: 37px;
-    }
-
-    .menu {
-        font-size: 12px;
-        margin-left: 0;
-        width: 9px;
-    }
-
-    .header_telephon {
-        font-size: 12px;
-        margin-top: 0;
-    }
-
-    .menu__icon1 {
-        width: 12.8px;
-    }
-
-    .menu__icon2 {
-        width: 12.8px;
-        margin-top: 2px;
-    }
-
-    .menu__icon3 {
-        width: 8px;
-        margin-top: 2px;
-
-    }
-
-    .intro_record_text {
-        font-size: 10px;
-        line-height: 12px;
-        width: 137px;
-        margin-left: 3px;
-        vertical-align: middle;
-    }
-
-    .intro_title {
-        font-size: 24px;
-        padding-left: 86px;
-    }
-
-    .intro_logo {
-        margin-top: -5px;
-    }
-
-    .intro_record_button {
-        top: 506px;
-        width: 30px;
-        height: 26px;
-    }
-
-    .intro_record {
-        margin: -10px auto 0;
-        width: 180px;
-    }
-
-    .intro_footer_city {
-        font-size: 12px;
-        line-height: 15px;
-    }
-
-    .intro_footer_city {
-        font-size: 12px;
-    }
-
-    .intro_record_button-icon {
-        width: 10px;
-        height: 15px;
-        margin-bottom: 2px;
-    }
-
-    .icon_intro_vk {
-        width: 8px;
-        height: 5px;
-        display: inline-block;
-    }
-
-    .icon_intro_tt {
-        width: 9px;
-        height: 6px;
-        display: inline-block;
-        margin-left: 1px;
-    }
-
-    .icon_intro_fb {
-        width: 4px;
-        height: 7px;
-        display: inline-block;
-        margin-left: 2px;
-    }
-
-}
-
-@media (max-width: 320px) {
-    .title {
-        min-height: 0;
-    }
-
-    .menu__icon1 {
-        width: 30px;
-    }
-
-    .menu__icon2 {
-        width: 30px;
-        margin-top: 5px;
-    }
-
-    .menu__icon3 {
-        width: 19px;
-        margin-top: 5px;
-    }
-
-    .wrapper {
-        max-width: 290px;
-    }
-
-    .menu__icon {
-        height: 0;
-        display: block;
-    }
-
-    .numbers_wrapper {
-        display: none;
-    }
-
-    .header_info {
-        padding-top: 19px;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .intro_footer {
-        display: none;
-    }
-
-    .intro {
-        margin-top: 67px;
-    }
-
-    .intro_title {
-        font-size: 18px;
-        padding-left: 29px;
-    }
-
-    .intro_logo {
-        margin-top: 3px;
-    }
-
-    .intro_record {
-        margin-left: 58px;
-        padding-bottom: 73px;
-        padding-top: 20px;
-    }
+  display: flex;
+  justify-content: space-between;
 }
 
 /* стили главная страница подвал конец*/
@@ -439,326 +233,323 @@ body {
 /*стили направления услуг начало*/
 
 .directions {
-    position: relative;
-    margin-top: -96px;
-    height: 722px;
-    width: 100%;
-    margin-bottom: 13px;
+  position: relative;
+  margin-top: -96px;
+  height: 722px;
+  width: 100%;
+  margin-bottom: 13px;
 }
 
 .directions_img {
-    position: absolute;
-    margin-left: 18px;
-    top: -52px; /* position the top  edge of the element at the middle of the parent */
-    left: 50%; /* position the left edge of the element at the middle of the parent */
-    transform: translate(-50%, 0);
+  position: absolute;
+  margin-left: 18px;
+  top: -52px; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, 0);
 }
 
-
 .abcolut_wrapper {
-    position: absolute;
-    top: 0; /* position the top  edge of the element at the middle of the parent */
-    left: 50%; /* position the left edge of the element at the middle of the parent */
-    transform: translate(-50%, 0);
-    width: 955px;
-    vertical-align: top;
+  position: absolute;
+  top: 0; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, 0);
+  width: 955px;
+  vertical-align: top;
 }
 
 .directions_title {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
 .directions_content {
-    height: 493px;
-    width: 955px;
-    margin: auto;
-    display: inline-block;
+  height: 493px;
+  width: 955px;
+  margin: auto;
+  display: inline-block;
 }
 
 .directions_content_hatha-yoga_info {
-    position: relative;
-    height: 182px;
-    width: 366px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  position: relative;
+  height: 182px;
+  width: 366px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
 }
 
-
 .directions_content_hatha-yoga {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .wrapper2_directions_content {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 29px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 29px;
 }
 
 .directions_content_hatha-yoga_info_title {
-    color: #8E80A9;
-    font-size: 16px;
-    display: block;
-    padding-top: 42px;
-    padding-left: 46px;
-    padding-bottom: 13px;
-    font-weight: bold;
+  color: #8e80a9;
+  font-size: 16px;
+  display: block;
+  padding-top: 42px;
+  padding-left: 46px;
+  padding-bottom: 13px;
+  font-weight: bold;
 }
 
 .directions_content_info_timetable {
-    width: 171px;
-    padding-left: 46px;
-    margin: 0;
-    line-height: 20px;
-    padding-bottom: 16px;
-    font-size: 12px;
-    display: block;
+  width: 171px;
+  padding-left: 46px;
+  margin: 0;
+  line-height: 20px;
+  padding-bottom: 16px;
+  font-size: 12px;
+  display: block;
 }
 
 .directions_content_info_instructor {
-    padding-left: 46px;
-    font-size: 12px;
-    line-height: 15px;
-    color: #E65C7B;
-    display: block;
+  padding-left: 46px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #e65c7b;
+  display: block;
 }
 
 .directions_content_hatha-yoga_info_button {
-    background: #8E80A9;
-    border: 0;
-    height: 182px;
-    width: 64px;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
+  background: #8e80a9;
+  border: 0;
+  height: 182px;
+  width: 64px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-
 .directions_content_asatanga-yoga {
-    height: 180px;
-    width: 525px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
-    vertical-align: top;
-    display: block;
+  height: 180px;
+  width: 525px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  vertical-align: top;
+  display: block;
 }
 
 .directions_content_asatanga-yoga_info_title {
-    display: inline-block;
-    font-size: 16px;
-    color: #8E80A9;
-    padding-top: 33px;
-    padding-left: 34px;
-    padding-bottom: 13px;
-    vertical-align: top;
-    font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  color: #8e80a9;
+  padding-top: 33px;
+  padding-left: 34px;
+  padding-bottom: 13px;
+  vertical-align: top;
+  font-weight: bold;
 }
 
-.hatha-yoga {
-    vertical-align: top;
+.hatha-yoga,
+.kundalini-yoga,
+.asatanga-yoga {
+  vertical-align: top;
 }
 
 .directions_content_asatanga-yoga_wrapper {
-    display: inline-block;
-    height: 180px;
-    width: 300px;
+  display: inline-block;
+  height: 180px;
+  width: 300px;
 }
 
 .directions_content_asatanga-yoga_info_timetable {
-    padding-left: 34px;
-    width: 171px;
-    margin: 0;
-    line-height: 20px;
-    padding-bottom: 16px;
-    display: inline-block;
-    font-size: 12px;
+  padding-left: 34px;
+  width: 171px;
+  margin: 0;
+  line-height: 20px;
+  padding-bottom: 16px;
+  display: inline-block;
+  font-size: 12px;
 }
 
 .directions_content_asatanga-yoga_info_instructor {
-    padding-left: 34px;
-    font-size: 12px;
-    line-height: 15px;
-    color: #E65C7B;
-    display: inline-block;
+  padding-left: 34px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #e65c7b;
+  display: inline-block;
 }
-
 
 .directions_content_asatanga-yoga_info_button {
-    position: absolute;
-    background: #8E80A9;
-    height: 30px;
-    width: 45px;
-    border: 0;
-    margin-left: 67px;
+  position: absolute;
+  background: #8e80a9;
+  height: 30px;
+  width: 45px;
+  border: 0;
+  margin-left: 67px;
 }
 
-
 .directions_content_kundalini-yoga {
-    height: 180px;
-    width: 525px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
-    display: block;
-    margin-top: 28px;
+  height: 180px;
+  width: 525px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  display: block;
+  margin-top: 28px;
 }
 
 .directions_content_see_button {
-    margin-top: 57px;
-    border: 0;
-    background: #FFFFFF;
-    height: 48px;
-    width: 525px;
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
-    font-size: 12px;
-    line-height: 20px;
-    color: #8E80A9;
-    padding: 0;
-    font-weight: 500;
-    font-style: normal;
-    font-family: Geometria, serif;
+  margin-top: 57px;
+  border: 0;
+  background: #ffffff;
+  height: 48px;
+  width: 525px;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  font-size: 12px;
+  line-height: 20px;
+  color: #8e80a9;
+  padding: 0;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Geometria, serif;
 }
 
 /*стили направления услуг конец*/
 
 /*стили абонементы начало*/
 .abonements {
-    background: url("../img/fonts_3blok.png") no-repeat center;
-    min-height: 900px;
-    background-size: cover;
+  background: url("../img/fonts_3blok.png") no-repeat center;
+  min-height: 900px;
+  background-size: cover;
 }
 
 .abonements_wrapper {
-    height: 469px;
-    width: 931px;
-    margin: auto;
+  height: 469px;
+  width: 931px;
+  margin: auto;
 }
 
 .abonements_wrapper_title {
-    font-size: 30px;
-    line-height: 15px;
-    color: #8E80A9;
-    height: 15px;
-    width: 191px;
-    margin: auto;
-    font-weight: bold;
+  font-size: 30px;
+  line-height: 15px;
+  color: #8e80a9;
+  height: 15px;
+  width: 191px;
+  margin: auto;
+  font-weight: bold;
 }
 
 .abonements_period {
-    height: 20px;
-    width: 286px;
-    display: flex;
-    justify-content: space-between;
-    margin: 54px auto auto;
+  height: 20px;
+  width: 286px;
+  display: flex;
+  justify-content: space-between;
+  margin: 54px auto auto;
 }
 
 .abonements_period_a {
-    border: none;
-    color: #E65C7B;
-    font-size: 12px;
-    line-height: 20px;
-    background-color: transparent;
-    text-decoration: none;
+  border: none;
+  color: #e65c7b;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .abonements_period_a1:link {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /*стили карточки абониментов начало*/
 .abonements_visit_time_wrapper {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .abonements_visit_time {
-    margin-top: 46px;
-    height: 237px;
-    width: 263px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  margin-top: 46px;
+  height: 237px;
+  width: 263px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
 }
 
 .abonements_visit_time_unlimited {
-    margin-top: 46px;
-    background: #FFFFFF;
-    width: 331px;
-    height: 331px;
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  margin-top: 46px;
+  background: #ffffff;
+  width: 331px;
+  height: 331px;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
 }
 
 .abonement_visit_time_title {
-    font-size: 18px;
-    line-height: 20px;
-    color: #8E80A9;
-    margin-top: 58px;
-    height: 20px;
-    font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #8e80a9;
+  margin-top: 58px;
+  height: 20px;
+  font-weight: bold;
 }
 
 .abonement_visit_time_morning_title {
-    width: 43px;
-    margin: 56px auto 19px;
+  width: 43px;
+  margin: 56px auto 19px;
 }
 
 .abonement_visit_time_evening_title {
-    width: 56px;
-    margin-left: 103px;
+  text-align: center;
 }
 
 .abonement_visit_time_unlimited_title {
-    margin-left: 122px;
+  text-align: center;
 }
 
 .abonement_visit_common_time {
-    height: 40px;
-    font-size: 12px;
-    line-height: 20px;
-    color: #E65C7B;
-    text-align: center;
-    margin: 19px auto auto;
+  height: 40px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #e65c7b;
+  text-align: center;
+  margin: 19px auto auto;
 }
 
 .abonement_visit_time_price {
-    height: 20px;
-    font-size: 30px;
-    line-height: 20px;
-    text-align: center;
-    color: #8E80A9;
-    font-weight: bold;
+  height: 20px;
+  font-size: 30px;
+  line-height: 20px;
+  text-align: center;
+  color: #8e80a9;
+  font-weight: bold;
 }
 
-
 .abonement_visit_time_unlimited_price {
-    margin-top: 29px;
-    margin-left: 108px;
-    width: 114px;
+  margin-top: 29px;
+  text-align: center;
 }
 
 .abonement_visit_time_morning_price {
-    width: 116px;
-    margin: 26px auto auto;
+  width: 116px;
+  margin: 26px auto auto;
 }
 
 .abonements_visit_time_unlimited_button {
-    margin-top: 36px;
-    margin-left: 54px;
-    padding: 0;
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    line-height: 20px;
-    background: #8E80A9;
-    font-weight: normal;
-    font-style: normal;
-    font-family: Geometria, serif;
-    height: 52px;
-    width: 223px;
+  margin-top: 36px;
+  margin-left: 54px;
+  padding: 0;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  background: #8e80a9;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Geometria, serif;
+  height: 52px;
+  width: 223px;
+}
+.button-visit_time {
+  display: none;
 }
 
 /*стили карточки абониментов конец*/
@@ -767,282 +558,280 @@ body {
 /*стили последний блок начало */
 /*стили наша команда начало*/
 .our_team {
-    margin-top: -295px;
-    position: relative;
-    min-height: 1245px;
+  margin-top: -295px;
+  position: relative;
+  min-height: 1245px;
 }
 
 .our_team_team_arrow1 {
-    margin-top: -20px;
-    display: inline-block;
-    height: 1180px;
-    position: absolute;
+  margin-top: -20px;
+  display: inline-block;
+  height: 1180px;
+  position: absolute;
 }
 
 .our_team_wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 977px;
+  display: flex;
+  justify-content: space-between;
+  width: 977px;
 }
 
 .our_team_team_arrow2 {
-    padding-top: 35px;
-    height: 514px;
-    width: 576px;
-    position: absolute;
-    margin-left: 950px;
+  padding-top: 35px;
+  height: 514px;
+  width: 576px;
+  position: absolute;
+  margin-left: 950px;
 }
 
 .our_team_title {
-    font-size: 30px;
-    font-weight: bold;
-    padding-bottom: 60px;
-    transform: translate(370px, 0);
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
 .our_team_instructor_info {
-    height: 105px;
-    width: 399px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
-    margin-top: -88px;
-    margin-left: 23px;
+  height: 105px;
+  width: 399px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  margin-top: -88px;
+  margin-left: 23px;
 }
 
 .our_team_instructor_info_left {
-    margin-left: 141px;
-    padding-top: 19px;
-    display: inline-block;
-    width: 88px;
+  margin-left: 141px;
+  padding-top: 19px;
+  display: inline-block;
+  width: 88px;
 }
 
 .our_team_instructor_info_title {
-    font-size: 12px;
-    line-height: 20px;
-    color: #E65C7B;
+  font-size: 12px;
+  line-height: 20px;
+  color: #e65c7b;
 }
 
 .our_team_instructor_info_cont {
-    display: inline-block;
-    padding-top: 9px;
-    font-size: 12px;
-    line-height: 20px;
-    color: #8E80A9;
-
+  display: inline-block;
+  padding-top: 9px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #8e80a9;
 }
 
 .our_team_instructor_info_right {
-    margin-left: 80px;
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 23px;
+  margin-left: 80px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 23px;
 }
 
 .our_team_instructor_info_right_icon {
-    margin-bottom: 28px;
-    margin-left: 16px;
+  margin-bottom: 28px;
+  margin-left: 16px;
 }
 
 .icon_team {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
 .our_team_instructor_info_look {
-    font-size: 12px;
-    line-height: 20px;
-    color: #8E80A9;
-    text-decoration: none;
-    border-bottom: 1px solid #8E80A9;
-    padding-bottom: 3px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #8e80a9;
+  text-decoration: none;
+  border-bottom: 1px solid #8e80a9;
+  padding-bottom: 3px;
 }
 
 .our_team_instructor_fio {
-    margin-bottom: 33px;
+  margin-bottom: 33px;
 }
 
 .our_team_instructor_fio_last {
-    margin-bottom: 43px;
+  margin-bottom: 43px;
 }
 
 .our_team_info_right {
-    margin-top: 54px;
+  margin-top: 54px;
 }
 
 .our_team_info_right_title {
-    display: inline-block;
-    font-size: 18px;
-    color: #8E80A9;
-    /*   padding-top: 33px;
+  display: inline-block;
+  font-size: 18px;
+  color: #8e80a9;
+  /*   padding-top: 33px;
        padding-left: 34px;
        padding-bottom: 13px;*/
-    vertical-align: top;
-    font-weight: bold;
+  vertical-align: top;
+  font-weight: bold;
 }
 
 .our_team_info_right_exp {
-    font-size: 14px;
-    line-height: 20px;
-    color: #E65C7B;
-    margin-top: 11px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #e65c7b;
+  margin-top: 11px;
 }
 
 .our_team_info_paragraphs {
-    font-size: 12px;
-    line-height: 20px;
-    color: #8E80A9;
+  font-size: 12px;
+  line-height: 20px;
+  color: #8e80a9;
 }
 
 .our_team_info_right_paragraph1 {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
 .our_team_info_right_paragraph2 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .our_team_info_right_paragraph3 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .our_team_info_right_paragraph4 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .our_team_info_left_buttons {
-    text-align: right;
-
+  text-align: right;
 }
 
 .our_team_info_left-button1 {
-    border: 1px solid #8E80A9;
-    box-sizing: border-box;
-    height: 30px;
-    width: 45px;
-    background-color: Transparent;
-    margin: 0;
-    display: inline-block;
-    vertical-align: top;
+  border: 1px solid #8e80a9;
+  box-sizing: border-box;
+  height: 30px;
+  width: 45px;
+  background-color: Transparent;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .our_team_info_left-button2 {
-    border: none;
-    background: #8E80A9;
-    box-sizing: border-box;
-    height: 30px;
-    width: 45px;
-    margin: 0;
+  border: none;
+  background: #8e80a9;
+  box-sizing: border-box;
+  height: 30px;
+  width: 45px;
+  margin: 0;
 }
 
 .our_team_info_left_numb {
-    display: inline-block;
-    font-size: 16px;
-    line-height: 20px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-left: 20px;
-    margin-right: 19px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+  margin-right: 19px;
 }
 
 .our_team_info_left-button1-img {
-    padding-top: 6px;
+  padding-top: 6px;
 }
 
 /*стили наша команда конец*/
 /*стили отзывы начало*/
 .reviews_title {
-    font-size: 30px;
-    line-height: 15px;
-    margin: auto;
-    margin-top: 140px;
-    width: 121px;
-    font-weight: bold;
+  font-size: 30px;
+  line-height: 15px;
+  margin: auto;
+  margin-top: 140px;
+  width: 121px;
+  font-weight: bold;
 }
 
 .reviews_cards {
-    margin-top: 62px;
+  margin-top: 62px;
 }
 
 .reviews_card {
-    height: 315px;
-    width: 442px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
-
+  height: 315px;
+  width: 442px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
 }
 
 .reviews_cards_wrap {
-    position: relative;
+  position: relative;
 }
 
 .reviews_button {
-    position: absolute;
-    margin-top: 144px;
-    margin-left: 10px;
+  position: absolute;
+  margin-top: 144px;
+  margin-left: 10px;
 }
 
 .reviews_button2 {
-    position: absolute;
-    margin-top: 144px;
-    margin-left: 908px;
+  position: absolute;
+  margin-top: 144px;
+  margin-left: 908px;
 }
 
-
 .reviews_card_left_quotes {
-    margin-left: 90px;
-    margin-top: 35px;
-
+  margin-left: 90px;
+  margin-top: 35px;
 }
 
 .reviews_card_text_one {
-    margin-top: 15px;
-    font-size: 12px;
-    line-height: 20px;
-    margin-left: 87px;
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 87px;
 }
 
 .reviews_card_text_two {
-    font-size: 12px;
-    line-height: 20px;
-    margin-top: 20px;
-    margin-left: 87px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-left: 87px;
 }
 
 .reviews_card_left {
-    margin-left: 25px;
-    display: inline-block;
+  margin-left: 25px;
+  display: inline-block;
 }
 
 .reviews_card_right {
-    margin-left: 16px;
-    display: inline-block;
+  margin-left: 16px;
+  display: inline-block;
 }
 
 .reviews_card_left_contact {
-    margin-left: 87px;
-    margin-top: 22px;
+  margin-left: 87px;
+  margin-top: 22px;
 }
 
 .reviews_card_left_contacts {
-    display: inline-block;
-    margin-left: 9px;
+  display: inline-block;
+  margin-left: 9px;
 }
 
 .reviews_card_inf {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 .reviews_card_left_contact-fio {
-    font-size: 12px;
-    line-height: 20px;
-    color: rgba(230, 92, 123, 0.7);
-    margin-top: -4px;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(230, 92, 123, 0.7);
+  margin-top: -4px;
 }
 
 .reviews_card_left_contact-data {
-    font-size: 10px;
-    line-height: 20px;
-    color: rgba(142, 128, 169, 0.7);
-    margin-top: -3px;
-    margin-bottom: 3px;
+  font-size: 10px;
+  line-height: 20px;
+  color: rgba(142, 128, 169, 0.7);
+  margin-top: -3px;
+  margin-bottom: 3px;
+}
+.reviews_buttons {
+  display: none;
 }
 
 /*стили отзывы конец*/
@@ -1050,147 +839,981 @@ body {
 /*стили футер начало */
 
 .footer {
-    margin-top: 147px;
+  margin-top: 147px;
 }
 
 .footer_wrapper_contacts {
-    background: url("../img/footer-card.jpg") no-repeat center;
-    background-size: cover;
-    height: 475px;
+  background: url("../img/footer-card.jpg") no-repeat center;
+  background-size: cover;
+  height: 475px;
 }
 
 .footer_wrapper_contacts-left_blok1 {
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 142px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 142px;
 }
 
 .footer_wrapper_contacts-left_blok2 {
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 32px;
 }
 
 .footer_wrapper_contacts-left_blok3 {
-    margin-top: 33px;
+  margin-top: 33px;
 }
 
 .footer_wrapper_info {
-    background: #8373A1;
-    height: 75px;
+  background: #8373a1;
+  height: 75px;
 }
 
 .footer_wrapper_info_left {
-    font-size: 12px;
-    line-height: 20px;
-    color: rgba(255, 255, 255, 0.5);
-    display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
 }
 
 .footer_wrapper_info_right {
-    font-size: 12px;
-    line-height: 20px;
-    color: rgba(255, 255, 255, 0.5);
-    display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
 }
 
 .footer_wrapper_info_general {
-    display: flex;
-    justify-content: space-between;
-    max-width: 929px;
-    margin: auto;
-    padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 929px;
+  margin: auto;
+  padding-top: 30px;
 }
 
 .footer_wrapper_contacts-center_blok1 {
-    margin-top: 142px;
-    font-size: 14px;
-    line-height: 20px;
+  margin-top: 142px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .footer_wrapper_contacts-center_blok2 {
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 32px;
 }
 
 .footer_wrapper_contacts-right-our {
-    width: 411px;
-    margin-top: 38px;
+  width: 411px;
+  margin-top: 38px;
 }
 
 .footer_wrapper_contacts-right_title {
-    font-size: 30px;
-    line-height: 40px;
-    font-weight: bold;
-    margin-bottom: 38px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-bottom: 38px;
 }
 
 .footer_wrapper_contacts-right_input-name {
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid #8E80A9;
-    font-size: 14px;
-    line-height: 30px;
-    color: rgba(142, 128, 169, 0.4);
-    display: block;
-    width: 407px;
-    font-family: 'Geometria';
-    transform: rotate(0.14deg);
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #8e80a9;
+  font-size: 14px;
+  line-height: 30px;
+  color: rgba(142, 128, 169, 0.4);
+  display: block;
+  width: 407px;
+  font-family: "Geometria";
+  transform: rotate(0.14deg);
 }
 
 .footer_wrapper_contacts-right_input-telephone {
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid #8E80A9;
-    margin-top: 42px;
-    font-size: 14px;
-    line-height: 30px;
-    color: rgba(142, 128, 169, 0.4);
-    width: 407px;
-    font-family: 'Geometria';
-    transform: rotate(0.14deg);
-
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #8e80a9;
+  margin-top: 42px;
+  font-size: 14px;
+  line-height: 30px;
+  color: rgba(142, 128, 169, 0.4);
+  width: 407px;
+  font-family: "Geometria";
+  transform: rotate(0.14deg);
 }
 
 .footer_wrapper_contacts-right {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 61px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 61px;
 }
 
 .footer_wrapper_contacts-left {
-    display: inline-block;
+  display: inline-block;
 }
 
-.footer_wrapper_contacts-right_input-telephone::-webkit-input-placeholder, .footer_wrapper_contacts-right_input-name::-webkit-input-placeholder {
-    color: rgba(142, 128, 169, 0.4);
+.footer_wrapper_contacts-right_input-telephone::-webkit-input-placeholder,
+.footer_wrapper_contacts-right_input-name::-webkit-input-placeholder {
+  color: rgba(142, 128, 169, 0.4);
 }
 
-.footer_wrapper_contacts-right_input-telephone::-moz-placeholder, .footer_wrapper_contacts-right_input-name::-moz-placeholder {
-    color: rgba(142, 128, 169, 0.4);
+.footer_wrapper_contacts-right_input-telephone::-moz-placeholder,
+.footer_wrapper_contacts-right_input-name::-moz-placeholder {
+  color: rgba(142, 128, 169, 0.4);
 }
 
-.footer_wrapper_contacts-right_input-telephone:-moz-placeholder, .footer_wrapper_contacts-right_input-name:-moz-placeholder {
-    color: rgba(142, 128, 169, 0.4);
+.footer_wrapper_contacts-right_input-telephone:-moz-placeholder,
+.footer_wrapper_contacts-right_input-name:-moz-placeholder {
+  color: rgba(142, 128, 169, 0.4);
 }
 
-.footer_wrapper_contacts-right_input-telephone:-ms-input-placeholder, .footer_wrapper_contacts-right_input-name:-ms-input-placeholder {
-    color: rgba(142, 128, 169, 0.4);
+.footer_wrapper_contacts-right_input-telephone:-ms-input-placeholder,
+.footer_wrapper_contacts-right_input-name:-ms-input-placeholder {
+  color: rgba(142, 128, 169, 0.4);
 }
-
 
 .footer_wrapper_contacts-right_button {
-    margin-top: 57px;
-    background: #E65C7B;
-    border: 0;
-    height: 56px;
-    width: 407px;
-    font-size: 14px;
-    line-height: 20px;
-    color: #FFFFFF;
-    font-family: 'Geometria';
+  margin-top: 57px;
+  background: #e65c7b;
+  border: 0;
+  height: 56px;
+  width: 407px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Geometria";
+}
+.icon_mob {
+  display: none;
 }
 
 /*стили футер конец */
 
+@media (max-width: 980px) and (min-width: 660px) {
+  /*стили для цифр начало*/
+  /*.numbers_wrapper {
+    padding-top: 210px;
+    z-index: 1;
+  }
+
+  .number_pages_1 {
+    padding-bottom: 413px;
+  }
+
+  .number_pages_2 {
+    padding-bottom: 484px;
+  }
+
+  .number_pages_3 {
+    padding-bottom: 469px;
+  }
+
+  .number_pages_4 {
+    padding-bottom: 757px;
+  }
+
+  .number {
+    font-size: 18px;
+  }
+
+  .line_number {
+    width: 19px;
+  }
+*/
+.numbers_wrapper {
+   display: none;
+}
+  /*стили для цифр конец*/
+  .wrapper {
+    max-width: 626px;
+  }
+
+  .intro {
+    margin-top: 42px;
+  }
+
+  .header_info {
+    padding-top: 37px;
+  }
+
+  .menu {
+    font-size: 12px;
+    margin-left: 0;
+    width: 9px;
+  }
+
+  .header_telephon {
+    font-size: 12px;
+    margin-top: 0;
+  }
+
+  .menu__icon1 {
+    width: 12.8px;
+  }
+
+  .menu__icon2 {
+    width: 12.8px;
+    margin-top: 2px;
+  }
+
+  .menu__icon3 {
+    width: 8px;
+    margin-top: 2px;
+  }
+
+  .intro_record_text {
+    font-size: 10px;
+    line-height: 12px;
+    width: 137px;
+    margin-left: 3px;
+    vertical-align: middle;
+  }
+
+  .intro_title {
+    font-size: 24px;
+    padding-left: 86px;
+  }
+
+  .intro_logo {
+    margin-top: -5px;
+  }
+
+  .intro_record_button {
+    top: 506px;
+    width: 30px;
+    height: 26px;
+  }
+
+  .intro_record {
+    margin: -10px auto 0;
+    width: 180px;
+    padding-bottom: 57px;
+  }
+
+  .intro_footer_city {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .intro_footer_city {
+    font-size: 12px;
+  }
+
+  .intro_record_button-icon {
+    width: 10px;
+    height: 15px;
+    margin-bottom: 2px;
+  }
+
+  .icon_intro_vk {
+    display: inline-block;
+  }
+
+  .icon_intro_tt {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .icon_intro_fb {
+    width: 8px;
+    height: 100%;
+    margin-left: 5px;
+    display: inline-block;
+  }
+
+  .title {
+    min-height: 0;
+    height: 460px;
+  }
+
+  /*направления начало*/
+  .directions {
+    margin-top: -33px;
+    background-color: #fcf8fe;
+    height: 460px;
+  }
+
+  .directions_content {
+    width: 100%;
+  }
+
+  .title_common {
+    font-size: 21px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .directions_title {
+    padding-bottom: 42px;
+  }
+
+  .abcolut_wrapper {
+    max-width: 626px;
+  }
+
+  .directions_content_hatha-yoga_info_title,
+  .directions_content_asatanga-yoga_info_title,
+  .directions_content_asatanga-yoga_info_title {
+    font-size: 12px;
+    padding-left: 21px;
+    padding-top: 18px;
+  }
+
+  .directions_content_hatha-yoga_info_title {
+    padding-bottom: 5px;
+  }
+
+  .directions_content_info_timetable,
+  .directions_content_asatanga-yoga_info_timetable,
+  .directions_content_asatanga-yoga_info_timetable {
+    font-size: 10px;
+    width: 171px;
+    padding-left: 21px;
+    line-height: 15px;
+    padding-bottom: 9px;
+  }
+
+  .directions_content_info_timetable {
+    width: 150px;
+  }
+
+  .directions_content_info_instructor,
+  .directions_content_asatanga-yoga_info_instructor,
+  .directions_content_asatanga-yoga_info_instructor {
+    padding-left: 21px;
+    font-size: 10px;
+    display: inline-block;
+    width: 110px;
+  }
+
+  .directions_content_hatha-yoga_info_button {
+    height: 123px;
+    width: 43px;
+  }
+
+  .directions_content_hatha-yoga_info {
+    width: 247px;
+    height: 122px;
+  }
+
+  .hatha-yoga {
+    width: 100%;
+  }
+
+  .directions_content_hatha-yoga {
+    width: 247px;
+  }
+
+  .wrapper2_directions_content {
+    margin-left: 20px;
+  }
+
+  .directions_content_asatanga-yoga,
+  .directions_content_kundalini-yoga {
+    height: 121px;
+    width: 345px;
+  }
+
+  .directions_content_asatanga-yoga_wrapper {
+    height: 121px;
+    width: 190px;
+  }
+
+  .directions_content_see_button {
+    width: 345px;
+    margin-top: 39px;
+    height: 32.33px;
+  }
+
+  .asatanga-yoga,
+  .kundalini-yoga {
+    height: 121px;
+  }
+
+  .directions_content_asatanga-yoga_info_timetable {
+    width: 150px;
+    display: inline-block;
+  }
+
+  .directions_content_asatanga-yoga_info_button {
+    width: 30.31px;
+    height: 20.21px;
+    margin-left: 0;
+    margin-top: 3px;
+  }
+
+  .directions_img {
+    margin: 0;
+    top: -30px;
+  }
+
+  /*направления конец*/
+  /*abonements start*/
+  .abonements_visit_time {
+    height: 176px;
+    width: 176px;
+  }
+
+  .abonements_visit_time_unlimited {
+    height: 221px;
+    width: 221px;
+  }
+
+  .abonements {
+    min-height: 550px;
+  }
+
+  .abonements_wrapper {
+    max-width: 626px;
+  }
+
+  .abonements_period {
+    margin-top: 23px;
+  }
+
+  .abonement_visit_common_time {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .abonement_visit_time_title {
+    text-align: center;
+    margin-top: 38px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .abonements_period {
+    width: 241px;
+  }
+
+  .abonements_period_a {
+    font-weight: bold;
+  }
+
+  .abonement_visit_common_time {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 14px;
+  }
+
+  .abonement_visit_time_price {
+    margin-top: 2px;
+    font-size: 21px;
+    line-height: 20px;
+  }
+
+  .abonements_visit_time_unlimited_button {
+    height: 35px;
+    width: 150px;
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 23px;
+    margin-left: 36px;
+  }
+
+  /*abonements end*/
+  /*наша команда начало*/
+  .our_team {
+    margin-top: -123px;
+    height: 1380px;
+  }
+
+  .our_team_wrapper {
+    width: 100%;
+  }
+
+  .our_team_title {
+    padding-bottom: 35px;
+  }
+
+  .our_team_instructor_fio {
+    margin-bottom: 21px;
+  }
+
+  .our_team_instructor_fio_last {
+    margin-bottom: 29px;
+  }
+
+  .our_team_instructor_info {
+    width: 254px;
+    height: 67px;
+    margin-left: 14px;
+    margin-top: -56px;
+  }
+
+  .our_team_instructor_fio_img {
+    max-height: 91px;
+    max-width: 91px;
+  }
+
+  .our_team_instructor_info_left {
+    margin-left: 84px;
+    padding-top: 11px;
+  }
+
+  .our_team_instructor_info_title {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .our_team_instructor_info_cont {
+    font-size: 10px;
+    line-height: 20px;
+    padding-top: 0;
+  }
+
+  .our_team_instructor_info_right {
+    padding-top: 9px;
+    margin-left: 5px;
+  }
+  .our_team_instructor_info_right_icon {
+    margin-bottom: 11px;
+    margin-left: 11px;
+  }
+  .our_team_instructor_info_look {
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 4px;
+  }
+
+  .our_team_info_right_title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .our_team_info_right_exp {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 2px;
+  }
+
+  .our_team_info_paragraphs {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 10px;
+  }
+  .our_team_info_left-button1,
+  .our_team_info_left-button2 {
+    height: 25px;
+    width: 40px;
+  }
+  .our_team_info_left-button1-img {
+    padding-top: 4px;
+  }
+
+  .our_team_info_left_numb {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .our_team_info_right {
+    margin-top: 32px;
+    max-width: 323px;
+  }
+  .reviews_button,
+  .reviews_button2 {
+    display: none;
+  }
+  .reviews_card {
+    max-width: 442px;
+    max-height: 315px;
+    margin: auto;
+    display: block;
+  }
+  .reviews_card_left {
+    margin-bottom: 18px;
+  }
+  .reviews_card_right {
+    margin-bottom: 39px;
+  }
+  .reviews_buttons {
+    display: block;
+    text-align: center;
+  }
+  /*наша команда конец*/
+  /*footer start*/
+  .footer_wrapper_contacts {
+    background: url(../img/laptop/йога\футер.jpg) no-repeat center;
+    background-size: cover;
+    height: 438px;
+  }
+  .footer_wrapper_info_general {
+    flex-direction: column-reverse;
+  }
+
+  .footer_wrapper_contacts-right-our {
+    margin: auto;
+    margin-bottom: 69px;
+  }
+  .footer_wrapper_contacts-left-our {
+    background-color: #8373a1;
+    color: #ffffff;
+    height: 400px;
+  }
+  .footer_wrapper_contacts-left {
+    padding-left: 77px;
+  }
+  .footer_wrapper_contacts-left_blok1,
+  .footer_wrapper_contacts-center_blok1 {
+    margin-top: 75px;
+  }
+  .footer_wrapper_info {
+    margin-top: 230px;
+    padding-left: 77px;
+  }
+  .icon_comp {
+    display: none;
+  }
+  .icon_mob {
+    display: block;
+  }
+
+  /*footer end*/
+}
+
+@media (max-width: 660px) {
+  /*главный экран начало*/
+  .title {
+    min-height: 0;
+    height: 480px;
+  }
+
+  .menu__icon1 {
+    width: 30px;
+  }
+
+  .menu__icon2 {
+    width: 30px;
+    margin-top: 5px;
+  }
+
+  .menu__icon3 {
+    width: 19px;
+    margin-top: 5px;
+  }
+
+  .wrapper {
+    max-width: 290px;
+  }
+
+  .menu__icon {
+    height: 0;
+    display: block;
+  }
+
+  .numbers_wrapper {
+    display: none;
+  }
+
+  .header_info {
+    padding-top: 19px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .intro_footer {
+    display: none;
+  }
+
+  .intro {
+    margin-top: 67px;
+  }
+
+  .intro_title {
+    font-size: 18px;
+    padding-left: 29px;
+  }
+
+  .intro_logo {
+    margin-top: 3px;
+  }
+
+  .intro_record {
+    margin-left: 58px;
+    padding-bottom: 73px;
+    padding-top: 20px;
+  }
+  /*главный экран конец*/
+  /*стили направления начало*/
+  .title_common {
+    font-size: 18px;
+    line-height: 0px;
+  }
+  .abcolut_wrapper {
+    max-width: 320px;
+  }
+  .directions_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .directions {
+    height: 1100px;
+    margin-bottom: 60px;
+  }
+  .directions_content_hatha-yoga,
+  .wrapper2_directions_content {
+    align-self: center;
+  }
+
+  .wrapper2_directions_content {
+    width: 247px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .directions_content_asatanga-yoga,
+  .directions_content_kundalini-yoga {
+    width: 100%;
+    height: 325px;
+  }
+
+  .asatanga-yoga,
+  .kundalini-yoga {
+    width: 100%;
+    height: auto;
+  }
+  .directions_content_asatanga-yoga_wrapper,
+  .directions_content_asatanga-yoga_wrapper {
+    width: 100%;
+    position: relative;
+  }
+  .directions_content_asatanga-yoga_info_button,
+  .directions_content_asatanga-yoga_info_button {
+    height: 123px;
+    width: 43px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    right: 0;
+    top: 0;
+  }
+
+  .directions_content_hatha-yoga {
+    margin-bottom: 30px;
+  }
+  .directions_content_kundalini-yoga {
+    margin-top: 30px;
+  }
+  .directions_content_see_button {
+    display: none;
+  }
+  /*стили направления конец*/
+
+  /*стили абонементы начало*/
+  .wrapper {
+    width: 100%;
+  }
+  .abonements_wrapper {
+    max-width: 290px;
+    height: 800px;
+  }
+  .abonements_visit_time_wrapper {
+    flex-wrap: wrap;
+    margin-top: 35px;
+  }
+
+  .abonements_visit_time,
+  .abonements_visit_time_unlimited {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+  }
+  .abonements_visit_time_unlimited {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .abonement_visit_time_morning_title {
+    margin-bottom: 0px;
+  }
+  .abonement_visit_time_title {
+    margin-top: 30px;
+  }
+
+  .button-visit_time {
+    display: block;
+    margin: 20px auto 0px;
+  }
+  /*стили абонементы конец*/
+  /*стили наша команда начало*/
+  .our_team {
+    margin-top: 30px;
+    min-height: 1000px;
+    height: 1000px;
+  }
+  .our_team_team_arrow1 {
+    height: 1000px;
+  }
+  .our_team_wrapper {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .our_team_info_right,
+  .our_team_info_left {
+    max-width: 228px;
+    margin: auto;
+  }
+  .our_team_info_left {
+    position: relative;
+  }
+  .our_team_instructor_fio {
+    display: none;
+  }
+  .our_team_instructor_fio_img {
+    max-width: 82px;
+    max-height: 82px;
+  }
+
+  .our_team_instructor_info {
+    margin-top: -82px;
+    margin-left: 0px;
+    height: 82px;
+    width: 100%;
+  }
+  .our_team_instructor_info_left {
+    padding-top: 20px;
+    margin-left: 97px;
+  }
+  .our_team_instructor_info_right {
+    flex-wrap: wrap;
+    width: 30px;
+    padding-top: 20px;
+    margin: 0px;
+  }
+  .our_team_instructor_info_right_icon {
+    margin: 0;
+  }
+  .icon_intro_tt,
+  .icon_intro_vk {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+  }
+  .our_team_instructor_info_look {
+    display: none;
+  }
+
+  .our_team-button {
+    display: none;
+  }
+
+  .our_team_info_right_title {
+    display: none;
+  }
+  .our_team_instructor_fio_last {
+    margin-bottom: 25px;
+    width: 228px;
+  }
+
+  .our_team_numb {
+    display: none;
+  }
+  /*стили наша команда конец*/
+  /*стили отзывы начало*/
+  .title_common {
+    margin-top: 0;
+  }
+  .reviews_cards {
+    margin-top: 40px;
+  }
+  .reviews_card_left {
+    margin-top: 40px;
+  }
+
+  .reviews_card_left {
+    width: 250px;
+    height: 270px;
+    margin-bottom: 30px;
+  }
+
+  .reviews_card_right {
+    display: none;
+  }
+
+  .reviews_card_left_quotes,
+  .reviews_card_text_one,
+  .reviews_card_text_two {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+
+  .reviews_card_left_contact {
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+
+  .reviews_card_text_one,
+  .reviews_card_text_two {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  /*стили отзывы конец*/
+
+  .footer {
+    margin-top: 0px;
+    width: 320px;
+    margin: auto;
+  }
+  .footer_wrapper_contacts-right_title {
+    font-size: 20px;
+    line-height: 27px;
+    margin-left: 35px;
+  }
+
+  .footer_wrapper_contacts-right-our {
+    width: 320px;
+  }
+
+  .footer_wrapper_contacts {
+    width: 320px;
+  }
+
+  .footer_wrapper_contacts-right_input-name,
+  .footer_wrapper_contacts-right_input-telephone,
+  .footer_wrapper_contacts-right_button {
+    width: 250px;
+    margin-left: 35px;
+  }
+  .footer_wrapper_contacts-right_input-telephone,
+  .footer_wrapper_contacts-right_button {
+    margin-top: 35px;
+  }
+
+  .footer_wrapper_contacts-left,
+  .footer_wrapper_contacts-right {
+    margin-left: 35px;
+    padding: 0px;
+  }
+  .footer_wrapper_contacts-left_blok1 {
+    margin-top: 50px;
+  }
+  .footer_wrapper_contacts-left_blok2,
+  .footer_wrapper_contacts-left_blok3,
+  .footer_wrapper_contacts-center_blok1,
+  .footer_wrapper_contacts-center_blok2 {
+    margin-top: 20px;
+  }
+
+  .icon_intro_vk,
+  .icon_mob {
+    width: 23px;
+    height: 15px;
+  }
+
+  .icon_intro_tt,
+  .icon_intro_fb {
+    width: 29px;
+    height: 100%;
+  }
+
+  .icon_intro_tt {
+    margin-left: 18px;
+  }
+
+  .footer_wrapper_info {
+    margin-top: 250px;
+    padding-left: 35px;
+  }
+}
