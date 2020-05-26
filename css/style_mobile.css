@@ -1,0 +1,391 @@
+
+@media (max-width: 660px) {
+    /*главный экран начало*/
+    .title {
+        min-height: 0;
+        height: 480px;
+    }
+
+    .menu__icon1 {
+        width: 30px;
+    }
+
+    .menu__icon2 {
+        width: 30px;
+        margin-top: 5px;
+    }
+
+    .menu__icon3 {
+        width: 19px;
+        margin-top: 5px;
+    }
+
+    .wrapper {
+        max-width: 290px;
+    }
+
+    .menu__icon {
+        height: 0;
+        display: block;
+    }
+
+    .numbers_wrapper {
+        display: none;
+    }
+
+    .header_info {
+        padding-top: 19px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .intro_footer {
+        display: none;
+    }
+
+    .intro {
+        margin-top: 67px;
+    }
+
+    .intro_title {
+        font-size: 18px;
+        padding-left: 29px;
+    }
+    .intro_record_button {
+        height: 26px;
+        width: 30px;
+    }
+    .intro_record_text {
+        font-family: Geometria;
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: 7px;
+    }
+    .intro_logo {
+        margin-top: 3px;
+    }
+
+    .intro_record {
+        margin-left: 58px;
+        padding-bottom: 73px;
+        margin-top: 15px;
+    }
+    /*главный экран конец*/
+    /*стили направления начало*/
+    .directions_img {
+        display: none;
+    }
+
+    .title_common {
+        font-size: 18px;
+        line-height: 0;
+    }
+
+    .directions_content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .directions {
+        height: 1100px;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    .directions_content_hatha-yoga,
+    .wrapper2_directions_content {
+        align-self: center;
+    }
+
+    .wrapper2_directions_content {
+        width: 247px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .directions_content_asatanga-yoga,
+    .directions_content_kundalini-yoga {
+        width: 100%;
+        height: 325px;
+    }
+
+    .asatanga-yoga,
+    .kundalini-yoga {
+        width: 100%;
+        height: auto;
+    }
+    .directions_content_asatanga-yoga_wrapper,
+    .directions_content_asatanga-yoga_wrapper {
+        width: 100%;
+        position: relative;
+    }
+    .directions_content_asatanga-yoga_info_button,
+    .directions_content_asatanga-yoga_info_button {
+        height: 123px;
+        width: 43px;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        right: 0;
+        top: 0;
+    }
+    .directions_content_hatha-yoga_info_title, .directions_content_asatanga-yoga_info_title {
+        padding-top: 10px;
+        padding-left: 20px;
+
+    }
+    .directions_content_info_timetable, .directions_content_asatanga-yoga_info_timetable {
+        padding-left: 20px;
+        font-size: 10px;
+        line-height: 15px;
+        width: 140px;
+        padding-bottom: 5px;
+    }
+
+    .directions_content_info_instructor, .directions_content_asatanga-yoga_info_instructor {
+        padding-left: 20px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .directions_content_hatha-yoga {
+        margin-bottom: 30px;
+        width: 250px;
+    }
+    .directions_content_hatha-yoga_info_button {
+        height: 115px;
+        width: 43px;
+    }
+    .directions_content_hatha-yoga_info {
+        width: 250px;
+        height: 115px;
+    }
+    .directions_content_kundalini-yoga {
+        margin-top: 30px;
+    }
+    .directions_content_see_button {
+        display: none;
+    }
+    /*стили направления конец*/
+
+    /*стили абонементы начало*/
+    .wrapper {
+        width: 100%;
+    }
+    .abonements_wrapper {
+        max-width: 290px;
+        height: 800px;
+    }
+    .abonements_visit_time_wrapper {
+        flex-wrap: wrap;
+        margin-top: 35px;
+    }
+
+    .abonements_visit_time,
+    .abonements_visit_time_unlimited {
+        width: 250px;
+        height: 200px;
+        margin: auto;
+    }
+    .abonements_visit_time_unlimited {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .abonement_visit_time_morning_title {
+        margin-bottom: 0px;
+    }
+    .abonement_visit_time_title {
+        margin-top: 30px;
+    }
+
+    .button-visit_time {
+        display: block;
+        margin: 20px auto 0px;
+    }
+    /*стили абонементы конец*/
+    /*стили наша команда начало*/
+    .our_team {
+        margin-top: 30px;
+        min-height: 1000px;
+        height: 1000px;
+    }
+    .our_team_team_arrow1 {
+        height: 1000px;
+    }
+    .our_team_wrapper {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .our_team_info_right,
+    .our_team_info_left {
+        max-width: 228px;
+        margin: auto;
+    }
+    .our_team_info_left {
+        position: relative;
+    }
+    .our_team_instructor_fio {
+        display: none;
+    }
+    .our_team_instructor_fio_img {
+        max-width: 82px;
+        max-height: 82px;
+    }
+
+    .our_team_instructor_info {
+        margin-top: -82px;
+        margin-left: 0px;
+        height: 82px;
+        width: 100%;
+    }
+    .our_team_instructor_info_left {
+        padding-top: 20px;
+        margin-left: 97px;
+    }
+    .our_team_instructor_info_right {
+        flex-wrap: wrap;
+        width: 30px;
+        padding-top: 20px;
+        margin: 0px;
+    }
+    .our_team_instructor_info_right_icon {
+        margin: 0;
+    }
+    .icon_intro_tt,
+    .icon_intro_vk {
+        margin: 0;
+        width: 16px;
+        height: 16px;
+    }
+    .our_team_instructor_info_look {
+        display: none;
+    }
+
+    .our_team-button {
+        display: none;
+    }
+
+    .our_team_info_right_title {
+        display: none;
+    }
+    .our_team_instructor_fio_last {
+        margin-bottom: 25px;
+        width: 228px;
+    }
+
+    .our_team_numb {
+        display: none;
+    }
+    /*стили наша команда конец*/
+    /*стили отзывы начало*/
+    .title_common {
+        margin-top: 0;
+    }
+    .directions_title {
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .reviews_cards {
+        margin-top: 40px;
+    }
+    .reviews_card_left {
+        margin-top: 40px;
+    }
+
+    .reviews_card_left {
+        width: 250px;
+        height: 270px;
+        margin-bottom: 30px;
+    }
+
+    .reviews_card_right {
+        display: none;
+    }
+
+    .reviews_card_left_quotes,
+    .reviews_card_text_one,
+    .reviews_card_text_two {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .reviews_card_left_contact {
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .reviews_card_text_one,
+    .reviews_card_text_two {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    /*стили отзывы конец*/
+
+    .footer {
+        margin-top: 0px;
+        width: 320px;
+        margin: auto;
+    }
+    .footer_wrapper_contacts-right_title {
+        font-size: 20px;
+        line-height: 27px;
+        margin-left: 35px;
+    }
+
+    .footer_wrapper_contacts-right-our {
+        width: 320px;
+    }
+
+    .footer_wrapper_contacts {
+        width: 320px;
+    }
+
+    .footer_wrapper_contacts-right_input-name,
+    .footer_wrapper_contacts-right_input-telephone,
+    .footer_wrapper_contacts-right_button {
+        width: 250px;
+        margin-left: 35px;
+    }
+    .footer_wrapper_contacts-right_input-telephone,
+    .footer_wrapper_contacts-right_button {
+        margin-top: 35px;
+    }
+
+    .footer_wrapper_contacts-left,
+    .footer_wrapper_contacts-right {
+        margin-left: 35px;
+        padding: 0px;
+    }
+    .footer_wrapper_contacts-left_blok1 {
+        margin-top: 50px;
+    }
+    .footer_wrapper_contacts-left_blok2,
+    .footer_wrapper_contacts-left_blok3,
+    .footer_wrapper_contacts-center_blok1,
+    .footer_wrapper_contacts-center_blok2 {
+        margin-top: 20px;
+    }
+
+    .icon_intro_vk,
+    .icon_mob {
+        width: 23px;
+        height: 15px;
+    }
+
+    .icon_intro_tt,
+    .icon_intro_fb {
+        width: 29px;
+        height: 100%;
+    }
+
+    .icon_intro_tt {
+        margin-left: 18px;
+    }
+
+    .footer_wrapper_info {
+        margin-top: 250px;
+        padding-left: 35px;
+    }
+}
